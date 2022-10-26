@@ -8,6 +8,15 @@ spec:
     image: nginx:1.14.2
     ports:
     - containerPort: 8080
+    volumeMounts:
+    - mountPath: /tmp/files
+      name: app-storage
+  volumes:
+  - name: app-storage
+    hostPath:
+      # directory location on host
+      path: /tmp/files
+      # this field is optional
 ---
 
 apiVersion: v1
@@ -20,3 +29,12 @@ spec:
     image: supergiantkir/animals:bear
     ports:
     - containerPort: 80
+        volumeMounts:
+    - mountPath: /tmp/files
+      name: app-storage
+  volumes:
+  - name: app-storage
+    hostPath:
+      # directory location on host
+      path: /tmp/files
+      # this field is optional
