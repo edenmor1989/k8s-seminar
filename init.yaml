@@ -11,12 +11,12 @@ spec:
     volumeMounts:
     - mountPath: /tmp/files
       name: app-storage
-  volumes:
-  - name: app-storage
-    hostPath:
-      # directory location on host
-      path: /tmp/files
-      # this field is optional
+volumes:
+- name: app-storage
+  hostPath:
+    # directory location on host
+    path: /tmp/files
+    # this field is optional
 ---
 
 apiVersion: v1
@@ -32,9 +32,9 @@ spec:
         volumeMounts:
     - mountPath: /tmp/files
       name: app-storage
-  volumes:
-  - name: app-storage
-    hostPath:
-      # directory location on host
-      path: /tmp/files
-      # this field is optional
+volumes:
+- name: app-storage
+  hostPath:
+    # directory location on host
+    path: /tmp/files
+    # this field is optional
