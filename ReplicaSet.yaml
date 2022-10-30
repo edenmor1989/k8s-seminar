@@ -29,5 +29,7 @@ spec:
         volumeMounts:
         - mountPath: /storage/app2
           name: app-storage
+      nodeSelector:
+          env: prod
       volumes:
         - name: app-storage
