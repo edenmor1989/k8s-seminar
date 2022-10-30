@@ -33,7 +33,7 @@ spec:
       volumeMounts:
       - mountPath: /storage
         name: app-storage
-   volumes:
-    - name: app-storage
-      hostPath:
-       path: /tmp/files
+ volumes:
+ - name: app-storage
+   hostPath:
+    path: /tmp/files
