@@ -1,0 +1,81 @@
+{
+  "title": "Hebcal Diaspora 2022",
+  "date": "2022-11-05T20:37:16.824Z",
+  "location": {
+    "geo": "none"
+  },
+  "range": {
+    "start": "2022-11-23",
+    "end": "2022-12-21"
+  },
+  "items": [
+    {
+      "title": "Sigd",
+      "date": "2022-11-23",
+      "hdate": "29 Cheshvan 5783",
+      "category": "holiday",
+      "subcat": "modern",
+      "hebrew": "סיגד",
+      "link": "https://hebcal.com/h/sigd-2022?us=js&um=api",
+      "memo": "Ethiopian Jewish holiday occurring 50 days after Yom Kippur"
+    },
+    {
+      "title": "Chanukah: 1 Candle",
+      "date": "2022-12-18",
+      "hdate": "24 Kislev 5783",
+      "category": "holiday",
+      "subcat": "major",
+      "hebrew": "חנוכה: א׳ נר",
+      "link": "https://hebcal.com/h/chanukah-2022?us=js&um=api",
+      "memo": "Hanukkah, the Jewish festival of rededication. Also known as the Festival of Lights"
+    },
+    {
+      "title": "Chanukah: 2 Candles",
+      "date": "2022-12-19",
+      "hdate": "25 Kislev 5783",
+      "category": "holiday",
+      "subcat": "major",
+      "hebrew": "חנוכה: ב׳ נרות",
+      "leyning": {
+        "1": "Numbers 7:1-7:11",
+        "2": "Numbers 7:12-7:14",
+        "3": "Numbers 7:15-7:17",
+        "torah": "Numbers 7:1-17"
+      },
+      "link": "https://hebcal.com/h/chanukah-2022?us=js&um=api",
+      "memo": "Hanukkah, the Jewish festival of rededication. Also known as the Festival of Lights"
+    },
+    {
+      "title": "Chanukah: 3 Candles",
+      "date": "2022-12-20",
+      "hdate": "26 Kislev 5783",
+      "category": "holiday",
+      "subcat": "major",
+      "hebrew": "חנוכה: ג׳ נרות",
+      "leyning": {
+        "1": "Numbers 7:18-7:20",
+        "2": "Numbers 7:21-7:23",
+        "3": "Numbers 7:24-7:29",
+        "torah": "Numbers 7:18-29"
+      },
+      "link": "https://hebcal.com/h/chanukah-2022?us=js&um=api",
+      "memo": "Hanukkah, the Jewish festival of rededication. Also known as the Festival of Lights"
+    },
+    {
+      "title": "Chanukah: 4 Candles",
+      "date": "2022-12-21",
+      "hdate": "27 Kislev 5783",
+      "category": "holiday",
+      "subcat": "major",
+      "hebrew": "חנוכה: ד׳ נרות",
+      "leyning": {
+        "1": "Numbers 7:24-7:26",
+        "2": "Numbers 7:27-7:29",
+        "3": "Numbers 7:30-7:35",
+        "torah": "Numbers 7:24-35"
+      },
+      "link": "https://hebcal.com/h/chanukah-2022?us=js&um=api",
+      "memo": "Hanukkah, the Jewish festival of rededication. Also known as the Festival of Lights"
+    }
+  ]
+}
